@@ -4,6 +4,8 @@ services:
   web:
     build: .
     image: ayesha077/devops-midterm-app:v1
+    ports:
+      - "8021:80"   # SAP ID 55421 
     environment:
       - USER_NAME=ayesha077_exam
     volumes:
